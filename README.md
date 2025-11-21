@@ -615,7 +615,7 @@ This project is licensed under the MIT License.
 ProDev Frontend Engineering Cohort 3 [2025]
 
 - GitHub: [@Marvie-03](https://github.com/Marvie-03)
-- LinkedIn: [Your Name](https://linkedin.com/in/kayveengee)
+- LinkedIn: [Modupe Marvellous](https://linkedin.com/in/kayveengee)
 - Portfolio: [My Portfolio](https://portfolio-marvel.netlify.app)
 
 ---
