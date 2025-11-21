@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color Palette based on your "Blue UI" screenshots */
+  
+  /* Primary (Royal Blue) */
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-primary-light: #DBEAFE;
+
+  /* Neutrals (Slate) */
+  --color-slate-900: #0F172A; /* Headings */
+  --color-slate-600: #475569; /* Body */
+  --color-slate-400: #94A3B8; /* Borders */
+  --color-slate-50:  #F8FAFC; /* Background */
+
+  /* Status */
+  --color-success: #22C55E;
+  --color-error: #EF4444;
+
+  /* Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Global Resets & Utilities */
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar for Sidebar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
