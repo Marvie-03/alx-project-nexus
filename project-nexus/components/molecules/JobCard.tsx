@@ -18,7 +18,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job }) => {
         {/* Fallback for logo if image fails (simulated) */}
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-slate-200 bg-slate-50">
           {job.logo ? (
-            <Image src={job.logo} alt={`${job.company} logo`} className="h-8 w-8 object-contain" />
+            <Image src={job.logo} alt={`${job.company} logo`} width={40} height={40} className="h-8 w-8 object-contain" />
           ) : (
             <Building2 className="h-6 w-6 text-slate-400" />
           )}
