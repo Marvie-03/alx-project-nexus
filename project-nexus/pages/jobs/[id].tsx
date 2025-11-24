@@ -198,8 +198,10 @@ export default function JobDetails() {
             </p>
             
             <div className="mt-6 space-y-3">
-              {/* This will eventually link to our Application Modal/Page */}
-              <Button className="w-full" size="lg">Apply Now</Button>
+              
+              <Link href={`/jobs/${job.id}/apply`} className="w-full">
+                <Button className="w-full" size="lg">Apply Now</Button>
+              </Link>
               
               <Button variant="outline" className="w-full">
                 <Bookmark className="mr-2 h-4 w-4" />

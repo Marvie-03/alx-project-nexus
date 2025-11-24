@@ -17,4 +17,15 @@ export const api = {
     const job = MOCK_JOBS.find((j) => j.id === id);
     return job || null;
   },
+  submitApplication: async (jobId: string, data: any): Promise<void> => {
+      await delay(1500); // Simulate network latency
+      
+      // Simulate a random server error for demonstration (10% chance)
+      const randomError = Math.random() < 0.1;
+      if (randomError) {
+        throw new Error("Server error: Could not process application.");
+      }
+      
+      return; // Success
+    }
 };
