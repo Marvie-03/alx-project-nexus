@@ -4,7 +4,7 @@ A modern, responsive job board application built with Next.js 15, featuring adva
 
 🔗 **Live Demo:** [Your Vercel Deployment URL]
 
-![Job Board Preview](./project-nexus/public/screenshots/preview.png)
+![Job Board Preview](./project-nexus/public/screenshot_pc.png)
 
 ## 📋 Table of Contents
 
