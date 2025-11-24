@@ -157,13 +157,12 @@ const filteredJobs = useMemo(() => {
 <!-- end list -->
 
 ```bash
-git clone [https://github.com/Marvie-03/project-nexus.git](https://github.com/Marvie-03/project-nexus.git)
+git clone https://github.com/Marvie-03/alx-project-nexus.git
 cd project-nexus
 ```
 
 2.  **Install dependencies:**
 
-<!-- end list -->
 
 ```bash
 npm install
@@ -171,7 +170,6 @@ npm install
 
 3.  **Run the development server:**
 
-<!-- end list -->
 
 ```bash
 npm run dev
@@ -231,5 +229,3 @@ ProDev Frontend Engineering Cohort 3 [2025]
 
 **Built with ❤️ as part of the ALX ProDev Frontend Engineering Program**
 
-```
-```
