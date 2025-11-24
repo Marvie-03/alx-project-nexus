@@ -2,7 +2,7 @@
 
 A modern, responsive job board application built with Next.js 15, featuring advanced filtering capabilities, simulated async data fetching, and a strict Atomic Design architecture.
 
-🔗 **Live Demo:** [Your Vercel Deployment URL]
+🔗 **Live Demo:** [DevJobs](https://alx-project-nexus-ebon.vercel.app/)
 
 ![Job Board Preview](./project-nexus/public/screenshot_pc.png)
 
